@@ -2,14 +2,14 @@ div {
   border: 1px ridge rgb(165, 167, 143);
 }
 .card {
-  background-color: rgb(244, 226, 224);
+  background-color: rgb(242, 229, 228);
   padding: 30px;
   text-align: center;
   margin: 20px;
   box-shadow: 1px 1px 4px rgb(165, 167, 143) ;
 }
 body {
-  background-color:rgb(244, 226, 224);
+  background-color:rgb(242, 229, 228);
   font-family: 'Quicksand', sans-serif;
   font-weight: 300;
   color:rgb(209, 154, 134) ;
@@ -47,13 +47,15 @@ p {
 
 h4 {
   color:rgb(150, 103, 86);
-  font-size: 1rem;
+  font-size: 1.2rem;
+  font-style: bold;
 }
 
 #profile_pic {
   border-radius: 50%;
-  border: 2px rgb(150, 103, 86);
-  width: 17%;
+  border: 0.5px solid rgb(150, 103, 86);
+  box-shadow: 1px 1px 3px rgb(165, 167, 143);
+  width: 20%;
 }
 
 .follow_list {
@@ -79,11 +81,13 @@ i:hover {
 #button {
   text-decoration: none;
   background-color: rgb(209, 154, 134);
-  padding: 7px;
-  border-radius: 25%;
+  padding: 7px 20px;
+  border-radius: 100px;
   margin: 50px;
   color: rgb(244, 226, 224);
   font-size: 1rem;
+  box-shadow: 1px 1px 3px rgb(165, 167, 143);
+  border: 0.5px solid rgb(150, 103, 86);
 }
 
 #button:hover{
